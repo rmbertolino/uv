@@ -49,7 +49,29 @@ uv tree
 uv sync
 ```
 
+### Instalar globalmente
+```bash
+uv tool install ruff
+wich ruff
+```
+
+### Desinstalar globalmente
+```bash
+uv tool unnistall ruff
+wich ruff
+```
+
 ### Ejecutar herramientas Python sin instalarlas globalmente
 ```bash
 uvx black main.py
-```	
+```
+
+### Lista instalaciones globales
+```bash
+uv tool list
+```
+
+### Actualizar instalaciones globales
+```bash
+uv tool upgrade --all
+```
